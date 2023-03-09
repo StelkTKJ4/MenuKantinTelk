@@ -1,0 +1,168 @@
+@font-face {
+    font-family: Nunito;
+    src: url(Nunito-VariableFont_wght.ttf);
+}
+
+* {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    font-family: Nunito;
+}
+
+body {
+    background-color: #F9F9F9;
+    margin: 0;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pembungkus {
+    width: 1250px;
+    margin: auto;
+    position: relative;
+}
+.logo a {
+    font-size: 50px;
+    float: left;
+    font-weight: bold;
+    color: #C4FFDD;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    top: 0;
+    background: #a75a5a;
+    border-bottom: 1px solid #F9F5EB;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color:#C4FFDD;
+    text-align: center;
+    font-weight: bold;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+.gambar{
+    padding: 5vh;
+    border: 10px;
+}
+
+.gambar img{
+    width: 30vh;
+    float: left;
+    margin-right: 20px;
+}
+
+.gambar h1{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.gambar h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.gambar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.gambar ul li{
+    float: left;
+}
+
+.tulisan{
+    padding-left: 25vh;
+}
+
+.gambar ul li a {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 20px;
+    color: #062743;
+}
+
+.deskripsi{
+    padding: 5vh;
+    float: left;
+}
+
+.deskripsi li{
+    float: left;
+    padding-right:40px;
+    text-align: center;
+}
+
+.pesanan{
+    float: right;
+    margin: 5vh;
+    padding-right: 50vh;
+    padding-bottom: 50vh;
+    padding-top: 3vh;
+    padding-left: 4vh;
+    background-color: #062743;
+    color: #C4FFDD;
+    border-radius: 40px;
+}
+
+.Tulisan-Akun{
+    font-size: 41px;
+    font-weight: bolder;
+    padding: 2vh 0vh 0vh 9vh;
+}
+
+
+.Menu-Siswa{
+    padding: 31px 0px 21px 89px;
+}
+
+.Akun-Siswa ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.Akun-Siswa ul li {
+    float: left;
+}
+
+.Akun-Siswa ul li a {
+    color:#062743;
+    text-align: center;
+    font-weight: 450;
+    padding: 0px 41px 0px 0px;
+    text-decoration: none;
+    font-size: 31px;
+}
+
+.pesanan {
+    align-items:center ;
+}
